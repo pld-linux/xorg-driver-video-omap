@@ -1,21 +1,21 @@
 Summary:	X.org video driver for TI OMAP graphics
 Summary(pl.UTF-8):	Sterownik obrazu X.org dla układów TI OMAP
 Name:		xorg-driver-video-omap
-Version:	0.4.2
+Version:	0.4.3
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-omap-%{version}.tar.bz2
-# Source0-md5:	c85463a4ce912203f8c7b88fe4bcf736
+# Source0-md5:	be35daf6fa4b75092cc4a8978c437bc5
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	libdrm-devel >= 2.4.36
 BuildRequires:	libtool
 BuildRequires:	pkgconfig >= 1:0.19
+BuildRequires:	pkgconfig(libdrm_omap)
 BuildRequires:	rpmbuild(macros) >= 1.389
 BuildRequires:	xorg-proto-fontsproto-devel
-BuildRequires:	xorg-proto-glproto-devel
 BuildRequires:	xorg-proto-randrproto-devel
 BuildRequires:	xorg-proto-renderproto-devel
 BuildRequires:	xorg-proto-videoproto-devel
