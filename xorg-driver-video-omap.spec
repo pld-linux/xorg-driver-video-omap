@@ -40,8 +40,9 @@ OMAP3430, OMAP3630, OMAP4430, OMAP4460, OMAP5430, OMAP5432.
 Sterownik graficzny X.org o otwartych źródłach dla układów graficznych
 TI OMAP.
 
-Obecnie do akceleracji EXA wymaga podmoduły o zamkniętych źródłach dla
-układów OMAP3430, OMAP3630, OMAP4430, OMAP4460, OMAP5430, OMAP5432.
+Obecnie do akceleracji EXA wymaga podmodułów o zamkniętych źródłach
+dla układów OMAP3430, OMAP3630, OMAP4430, OMAP4460, OMAP5430,
+OMAP5432.
 
 %prep
 %setup -q -n xf86-video-omap-%{version}
